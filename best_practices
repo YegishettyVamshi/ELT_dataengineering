@@ -1,0 +1,9 @@
+**as API keys are sensitive include them in .env file and get those API Keys through dotenv package of python 
+we do it as follows **
+
+from dotenv import load_dotenv
+import os
+
+load_dotenv(dotenv_path = "")
+
+API_KEY = os.getenv("API_KEY")
